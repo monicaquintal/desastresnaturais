@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Fiap.Api.DesastresNaturais")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5aa52c83660a32cb2b7c3b1ab224bcc4d196a536")]
 [assembly: System.Reflection.AssemblyProductAttribute("Fiap.Api.DesastresNaturais")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Fiap.Api.DesastresNaturais")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
