@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\dev\\Fiap.Api.DesastresNaturais\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A0497C35-ED21-421C-AAB7-D4FDA738CF12}|Fiap.Api.DesastresNaturais\\Fiap.Api.DesastresNaturais.csproj|c:\\dev\\fiap.api.desastresnaturais\\fiap.api.desastresnaturais\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A0497C35-ED21-421C-AAB7-D4FDA738CF12}|Fiap.Api.DesastresNaturais\\Fiap.Api.DesastresNaturais.csproj|solutionrelative:fiap.api.desastresnaturais\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A0497C35-ED21-421C-AAB7-D4FDA738CF12}|Fiap.Api.DesastresNaturais\\Fiap.Api.DesastresNaturais.csproj|c:\\dev\\fiap.api.desastresnaturais\\fiap.api.desastresnaturais\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A0497C35-ED21-421C-AAB7-D4FDA738CF12}|Fiap.Api.DesastresNaturais\\Fiap.Api.DesastresNaturais.csproj|solutionrelative:fiap.api.desastresnaturais\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -59,15 +63,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\dev\\Fiap.Api.DesastresNaturais\\Fiap.Api.DesastresNaturais\\Dockerfile",
+              "RelativeDocumentMoniker": "Fiap.Api.DesastresNaturais\\Dockerfile",
+              "ToolTip": "C:\\dev\\Fiap.Api.DesastresNaturais\\Fiap.Api.DesastresNaturais\\Dockerfile",
+              "RelativeToolTip": "Fiap.Api.DesastresNaturais\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-10-13T18:26:02.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\dev\\Fiap.Api.DesastresNaturais\\Fiap.Api.DesastresNaturais\\Program.cs",
               "RelativeDocumentMoniker": "Fiap.Api.DesastresNaturais\\Program.cs",
               "ToolTip": "C:\\dev\\Fiap.Api.DesastresNaturais\\Fiap.Api.DesastresNaturais\\Program.cs",
               "RelativeToolTip": "Fiap.Api.DesastresNaturais\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T13:32:38.067Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-13T13:32:38.067Z"
             }
           ]
         }

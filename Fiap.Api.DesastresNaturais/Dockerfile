@@ -9,15 +9,15 @@ EXPOSE 8081
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
-COPY ["Fiap.Api.DesastresNaturais/Fiap.Api.DesastresNaturais.csproj", "Fiap.Api.DesastresNaturais/"]
-RUN dotnet restore "./Fiap.Api.DesastresNaturais/Fiap.Api.DesastresNaturais.csproj"
+COPY ["Fiap.Api.DesastresNaturais.csproj", "./"]
+RUN dotnet restore "Fiap.Api.DesastresNaturais.csproj"
 COPY . .
 WORKDIR "/src/Fiap.Api.DesastresNaturais"
-RUN dotnet build "./Fiap.Api.DesastresNaturais.csproj" -c $BUILD_CONFIGURATION -o /app/build
+RUN dotnet build "../Fiap.Api.DesastresNaturais.csproj" -c $BUILD_CONFIGURATION -o /app/build
 
 FROM build AS publish
 ARG BUILD_CONFIGURATION=Release
-RUN dotnet publish "./Fiap.Api.DesastresNaturais.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
+RUN dotnet publish "../Fiap.Api.DesastresNaturais.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
 
 FROM base AS final
 WORKDIR /app

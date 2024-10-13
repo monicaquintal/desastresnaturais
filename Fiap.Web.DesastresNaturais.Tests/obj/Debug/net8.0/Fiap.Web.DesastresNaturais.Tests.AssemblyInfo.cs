@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Fiap.Web.DesastresNaturais.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5aa52c83660a32cb2b7c3b1ab224bcc4d196a536")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4a46bdbd02160f5dce7ce20d40cb9e7f423dcf59")]
 [assembly: System.Reflection.AssemblyProductAttribute("Fiap.Web.DesastresNaturais.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Fiap.Web.DesastresNaturais.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
